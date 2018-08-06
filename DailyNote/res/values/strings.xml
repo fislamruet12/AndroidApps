@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Daily Note</string>
+    <string name="action_settings">About</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_income">Income</string>
+    <string name="title_activity_lone_and_savings">LoneAndSavings</string>
+    <string name="e_calender">e_calender</string>
+    <string name="incomesettings">Save in file</string>
+    <string name="about">\n \n  Md Faridul islam \n  fislam.ruet@gmail.com \n CSE,RUET\n</string>
+ 
+</resources>

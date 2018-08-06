@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CountingKazaNamaz</string>
+    <string name="action_Reset">about</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_second_main">CountingKazaNamaz</string>
+  <string name="about">\n... \n  Md. Faridul islam \n  fislam.ruet@gmail.com \n CSE,RUET\n\n ...</string>
+    
+</resources>

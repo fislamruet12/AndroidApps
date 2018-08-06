@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@android:color/holo_blue_light"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Selecting" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@android:color/holo_purple"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Income"
+            android:layout_width="wrap_content"
+            android:rotation="22"
+            android:layout_height="60dp"
+            android:padding="20dp"
+            
+        android:background="@android:color/holo_blue_light"
+            android:text="Income"
+           
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+        android:background="@android:color/holo_purple" />
+
+        <TextView
+            android:id="@+id/Cost"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Cost"
+             android:background="@android:color/holo_blue_light"
+       
+                android:padding="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+        android:background="@android:color/holo_purple" />
+        
+        <TextView
+            android:id="@+id/Lone"
+            android:layout_width="wrap_content"
+            android:background="@android:color/holo_blue_light"
+           android:rotation="-22"
+            android:layout_height="60dp"
+            android:text="Take Loan"
+                android:padding="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+        android:background="@android:color/holo_purple" />
+
+        <TextView
+            android:id="@+id/Advance"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Give Loan"
+             android:background="@android:color/holo_blue_light"
+       
+                android:padding="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+</RelativeLayout>
